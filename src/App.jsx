@@ -19,6 +19,11 @@ function App() {
       age: "2",
       student: false
     },
+    {
+      name: "Maikol",
+      age: "20",
+      student: false
+    }
   ]
 
   return (
