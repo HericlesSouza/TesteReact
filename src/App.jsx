@@ -29,11 +29,11 @@ function App() {
   return (
     <div className="App">
       <div className="App-header">
-        {users.map(({name, age, student}) => {
+        {users.map(({name, age, student}, index) => {
           if(!student) {
-            return <PersonCard nameUser key = {name} ageUser = {age} studentUser = {"Trabalhadorrr"} />
+            return <PersonCard key = {index} nameUser = {name} ageUser = {age} studentUser = {"Trabalhadorrr"} />
           } else if (student) {
-            return <PersonCard nameUser key = {name} ageUser = {age} studentUser = {"É estudante"} />
+            return <PersonCard key = {index} nameUser = {name} ageUser = {age} studentUser = {"É estudante"} />
           }
         })}
       </div> 
