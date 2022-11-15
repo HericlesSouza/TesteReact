@@ -1,0 +1,15 @@
+.UserCard {
+    width: 200px;
+    height: 200px;
+    background-color: purple;
+    border: 2px solid white;
+    color: white;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.UserCard:hover {
+    filter: brightness(0.9);
+}
