@@ -26,7 +26,7 @@ function App() {
       <div className="App-header">
         {users.map(({name, age, student}) => {
           if(!student) {
-            return <PersonCard nameUser key = {name} ageUser = {age} studentUser = {"Trabalhador"} />
+            return <PersonCard nameUser key = {name} ageUser = {age} studentUser = {"Trabalhadorrr"} />
           } else if (student) {
             return <PersonCard nameUser key = {name} ageUser = {age} studentUser = {"É estudante"} />
           }
